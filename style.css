@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+
+:focus {
+  /* background-color: #e4ab00; */
+  transition: all 1s;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #f9dc05, #ff7b00);
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+input {
+  margin-bottom: 2px;
+  /* background-color: #f9bc05; */
+  background-color: #eeb50a;
+  height: 30px;
+  border-radius: 4px;
+  color: rgb(135, 2, 135);
+  font-family: "Lato";
+}
+
+.has-suggestions {
+  /* background-color: #fdc212; */
+  border-radius: 5px;
+  width: 100%;
+}
+
+::placeholder {
+  color: rgb(135, 2, 135);
+  font-family: "Lato";
+}
+
+ul {
+  display: block;
+  width: 100%;
+  padding-inline-start: 0px;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #ecb615;
+  color: rgb(135, 2, 135);
+  margin-top: 2px;
+  height: 30px;
+  width: inherit;
+  display: flex;
+  align-items: center;
+}
+
+ul li:hover {
+  color: rgb(144, 32, 144);
+  background-color: #e2be51;
+  transition: all 1s;
+}
